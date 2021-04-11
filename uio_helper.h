@@ -67,6 +67,7 @@ int uio_get_all_info(struct uio_info_t* info);
 int uio_get_device_attributes(struct uio_info_t* info);
 void uio_free_dev_attrs(struct uio_info_t* info);
 void uio_free_info(struct uio_info_t* info);
+void uio_mmap_test(struct uio_info_t* info);
 struct uio_info_t* uio_find_devices(int filter_num);
 
 #endif
